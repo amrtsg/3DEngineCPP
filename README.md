@@ -1,10 +1,16 @@
 # 3D Graphics Engine C++/OpenGL
 
+## Final Render
+
+![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/githubpics/OpenGLScene.gif?raw=true)
+
+NOTE: Currently it takes a couple tries to run the project successfully, it has to do with memory when loading heightmaps.
+
 ### Build
 
 Create a folder called "build" in the project file, then create a VS solution using CMake
 
-![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/cmake.png?raw=true)
+![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/githubpics/cmake.png?raw=true)
 
 After opening the solution, be sure to set "src" as the startup project, and then do the following
 
@@ -17,15 +23,18 @@ NOTE: WILL CHANGE THE LINKS FROM ABSOLUTE TO RELATIVE NEXT PUSH, FOR NOW JUST CH
 
 ### Terrain
 
-![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/terrain.png?raw=true)
+![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/githubpics/terrain.png?raw=true)
 
 ### Skybox
 
-![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/skybox.png?raw=true)
+![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/githubpics/skybox.png?raw=true)
 
 ### .OBJ File rendering using ASSIMP
 
-![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/3dobj.png?raw=true)
+![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/githubpics/3dobj.png?raw=true)
+
+### Water tiles
+![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/githubpics/watertile.png?raw=true)
 
 # Dependencies (All Included)
 
@@ -38,7 +47,4 @@ NOTE: WILL CHANGE THE LINKS FROM ABSOLUTE TO RELATIVE NEXT PUSH, FOR NOW JUST CH
 
 # Next Update
 
- - Currently working on water tiles, right now they are just a blue plane.
- - Fixing bug where terrain wont generate with other objects in the scene.
- - Cleaning up code (I know it is messy as of now, bare with me)
- - Changing absolute links to relative.
+ - Fix memory bug when running project.
