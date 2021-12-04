@@ -17,8 +17,6 @@ After opening the solution, be sure to set "src" as the startup project, and the
  - ADD "assimp-vc140-mt.lib" to Linker -> Input -> Additional Dependencies
  - Copy the files in external/assimp/lib  - TO -> build/src
 
-NOTE: WILL CHANGE THE LINKS FROM ABSOLUTE TO RELATIVE NEXT PUSH, FOR NOW JUST CHANGE THEM YOURSELF
-
 # Functionality
 
 ### Terrain
