@@ -8,7 +8,7 @@ NOTE: Currently it takes a couple tries to run the project successfully, it has 
 
 ### Build
 
-Create a folder called "build" in the project file, then create a VS solution using CMake
+Create a folder called "build" in the project folder, then create a VS solution using CMake
 
 ![alt text](https://github.com/amrtsg/GameEngineCPP/blob/master/githubpics/cmake.png?raw=true)
 
